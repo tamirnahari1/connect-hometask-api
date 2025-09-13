@@ -24,6 +24,7 @@ copy .env.example .env
 npm install
 npm run dev
 
+```
 
 ## Postman Tests (Short Demos)
 
@@ -38,3 +39,4 @@ I validated the API using Postman. Below are short GIFs that demonstrate auth, r
 ![Read flow](docs/02-read.gif)
 ![Create flow](docs/03-create.gif)
 ![Negative](docs/04-negative.gif)
+
