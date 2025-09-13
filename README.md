@@ -33,10 +33,18 @@ I validated the API using Postman. Below are short GIFs that demonstrate auth, r
 - Auth & Health → open `/health`, 401 without key, 200 with `x-api-key`
 - Read flow → list items, get by id, search (items & categories)
 - Create flow → create category, update item, verify via `GET /item/:id` 
-- Negative → sample 400 validation
-
+- Negative → sample 400/401/404 validations
+- 
+### Auth & Health
 ![Auth & Health](docs/01-auth-health.gif)
+
+### Read flow
 ![Read flow](docs/02-read.gif)
+
+### Create flow
 ![Create flow](docs/03-create.gif)
+
+### Negative validations
 ![Negative](docs/04-negative.gif)
+
 
